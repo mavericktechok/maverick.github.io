@@ -2,7 +2,7 @@
 Static website for Maverick Technologies.
 
 ## Live Website
-[https://mavericktechok.github.io/maverick_web/](https://mavericktechok.github.io/maverick_web/)
+[https://mavericktechok.github.io/maverick.github.io/](https://mavericktechok.github.io/maverick.github.io/)
 
 ## Local Setup Instructions
 
@@ -10,7 +10,7 @@ To run this site locally, you can use Python's built-in HTTP server:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mavericktechok/maverick_web.git
+   git clone https://github.com/mavericktechok/maverick.github.io.git
    ```
 2. Navigate to the project directory:
    ```bash
