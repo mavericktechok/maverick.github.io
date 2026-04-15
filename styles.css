@@ -191,20 +191,6 @@ section:nth-child(even) {
     border-left: 4px solid var(--primary-color);
 }
 
-/* 4. Past Performance & Clients */
-.performance-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-}
-
-.performance-item {
-    background-color: var(--background-color);
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-
 /* 5. Leadership Team */
 .leadership-grid {
     display: grid;
