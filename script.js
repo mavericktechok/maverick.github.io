@@ -31,9 +31,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const viewerElement = document.getElementById('viewer');
     let viewerInstance = null;
 
+    // Define allowed documents to prevent unauthorized file access
+    const ALLOWED_DOCS = [
+        'Maverick Business Capabilites 2018.doc',
+        'Maverick Executive Summary 2020.doc',
+        'Quality Policy.doc'
+    ];
+
     docButtons.forEach(button => {
         button.addEventListener('click', () => {
             const docPath = button.getAttribute('data-doc');
+
+            // Validate the document path against the allowlist
+            if (!ALLOWED_DOCS.includes(docPath)) {
+                console.error('Unauthorized document path:', docPath);
+                return;
+            }
 
             // Show the viewer container
             viewerElement.style.display = 'block';
