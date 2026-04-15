@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Add 'active' class to trigger the CSS animation
                 entry.target.classList.add('active');
                 // Optional: Stop observing once revealed
-                // observer.unobserve(entry.target);
+                observer.unobserve(entry.target);
             } else {
                 // Optional: Remove class when out of view to allow re-triggering
                 // entry.target.classList.remove('active');
