@@ -54,6 +54,26 @@ button:focus-visible,
     outline-offset: 2px;
 }
 
+/* Skip Link */
+.skip-link {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 0.5rem 1rem;
+    z-index: 1001;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0 0 5px 0;
+    transition: top var(--transition-speed);
+}
+
+.skip-link:focus {
+    top: 0;
+    left: 0;
+}
+
 /* Navigation */
 nav {
     position: fixed;
