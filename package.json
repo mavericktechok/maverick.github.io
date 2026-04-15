@@ -4,8 +4,7 @@
   "description": "static website for maverick technologies",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cp -R ./node_modules/@pdftron/webviewer/public ./webviewer && cp ./node_modules/@pdftron/webviewer/webviewer.min.js ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/mavericktechok/maverick_web/issues"
   },
-  "homepage": "https://github.com/mavericktechok/maverick_web#readme",
-  "dependencies": {
-    "@pdftron/webviewer": "^11.12.0"
-  }
+  "homepage": "https://github.com/mavericktechok/maverick_web#readme"
 }

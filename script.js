@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!viewerInstance) {
                 // Initialize WebViewer on first click
                 WebViewer({
-                    path: 'webviewer',
+                    path: 'https://cdn.jsdelivr.net/npm/@pdftron/webviewer@11.12.0/public',
                     initialDoc: docPath
                 }, viewerElement).then(instance => {
                     viewerInstance = instance;
