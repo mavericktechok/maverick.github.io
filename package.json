@@ -4,7 +4,8 @@
   "description": "static website for maverick technologies",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:e2e": "pytest tests/test_homepage.py"
   },
   "repository": {
     "type": "git",
